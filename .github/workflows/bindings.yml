@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+      - ci/verify-platform-builds
   pull_request: {}
 
 name: Build bindings

@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+      - ci/verify-platform-builds
     tags:
       - 'bindings_*'
   pull_request: {}
